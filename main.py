@@ -74,10 +74,10 @@ class scraper:
 
 if __name__ == "__main__":
     
-    nasdaq = scraper()
-    nasdaq.get_url()
-    nasdaq.scrapping()
-    nasdaq.csv_file()
+    new = scraper()
+    new.get_url()
+    new.scrapping()
+    new.csv_file()
     
 
 
